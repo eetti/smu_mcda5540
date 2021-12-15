@@ -1,0 +1,119 @@
+{
+  "contractName": "AssetTracker",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/AssetTracker.sol\":\"AssetTracker\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/AssetTracker.sol\":{\"keccak256\":\"0xfbcab666319f7e99e93e53dc6b69e65686ec633b613e1af39b7f46edf5eed133\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://260bdae47a2fda30c478e9981e7703bc30c64eaec7aefb6e6987199c75f4e90a\",\"dweb:/ipfs/QmTYpnmdTyLAmPwGsyTTaCXNok6sLe4jf3yNMFx2FJXQqX\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220678651decd6275ea4dd5e6331ad8b4a69d1c3d2c3f28738dd556dde5dfea857564736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220678651decd6275ea4dd5e6331ad8b4a69d1c3d2c3f28738dd556dde5dfea857564736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "65:30:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "65:30:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.10;\n\ncontract AssetTracker {\n    \n}",
+  "sourcePath": "/Users/eetti/dev/personal/smu/contracts/AssetTracker.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/AssetTracker.sol",
+    "exportedSymbols": {
+      "AssetTracker": [
+        85
+      ]
+    },
+    "id": 86,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 84,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:24:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "AssetTracker",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 85,
+        "linearizedBaseContracts": [
+          85
+        ],
+        "name": "AssetTracker",
+        "nameLocation": "74:12:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 86,
+        "src": "65:30:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:56:1"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/AssetTracker.sol",
+    "exportedSymbols": {
+      "AssetTracker": [
+        85
+      ]
+    },
+    "id": 86,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 84,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:24:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "AssetTracker",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 85,
+        "linearizedBaseContracts": [
+          85
+        ],
+        "name": "AssetTracker",
+        "nameLocation": "74:12:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 86,
+        "src": "65:30:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:56:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-12-14T19:29:25.468Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
