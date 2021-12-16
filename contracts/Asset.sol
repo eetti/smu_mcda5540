@@ -3,10 +3,10 @@ pragma solidity ^0.8.10;
 
 contract Asset {
     enum StateType {
-        Created, //1
-        Vendor, //3
-        Warehouse, //4
-        Shipped //5
+        Created, //0
+        Vendor, //1
+        Warehouse, //2
+        Shipped //3
     }
 
     address public Owner;
@@ -28,10 +28,10 @@ contract Asset {
         Owner = owner;
         State = StateType.Created;
         Name = name;
-        StateNames[1] = "Created";
-        StateNames[3] = "Vendor";
-        StateNames[4] = "Warehouse";
-        StateNames[5] = "Shipped";
+        StateNames[0] = "Created";
+        StateNames[1] = "Vendor";
+        StateNames[2] = "Warehouse";
+        StateNames[3] = "Shipped";
         emit AssetCreated(name, owner);
     }
 
